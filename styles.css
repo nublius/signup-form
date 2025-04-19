@@ -20,7 +20,7 @@ img {
     display: block;
 }
 
-.form-container {
+.block-container {
     height: auto;
     flex-grow: 1;
     background-color: whitesmoke;
@@ -37,7 +37,7 @@ p.second {
     margin-bottom: 45px;
 }
 
-.hero-header {
+.header-block {
     height: 33%;
     width: 60%;
     margin-left: 50px;
@@ -45,7 +45,7 @@ p.second {
     flex-direction: column;
 }
 
-.signup {
+.signup-block {
     height: 33%;
     background-color: white;
     box-shadow: 0 4px 8px -2px lightgrey;
@@ -60,6 +60,10 @@ h1 {
     font-size: 1.7em;
 }
 
-.login {
+.login-block {
     height: 33%;
+}
+
+.create-acc {
+    background-color: #327284;
 }

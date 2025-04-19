@@ -60,6 +60,22 @@ h1 {
     font-size: 1.7em;
 }
 
+label {
+    color: #636363;
+    font-weight: bold;
+    letter-spacing: .04em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+}
+
 .login-block {
     height: 33%;
 }

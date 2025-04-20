@@ -14,10 +14,30 @@
     flex: 1;
 }
 
+.transparent {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 33vw;
+    height: 20vh;
+    justify-content: center;
+    top: 33vh;
+}
+
+.credit {
+    color: white;
+    position: absolute;
+    align-self: last baseline;
+}
+
 img {
     max-height: 100vh;
     width: auto;
     display: block;
+    align-self: center;
+}
+
+.odin-logo {
+    max-height: 15vh;
 }
 
 .block-container {
@@ -104,12 +124,8 @@ input:focus {
     gap: 20px;
 }
 
-.create-acc {
-    background-color: #327284;
-}
-
 input[type="password"]:invalid {
-    border: 2px solid red;
+    border: 2px solid #FF6961;
 }
 
 .create-acc {
@@ -122,6 +138,14 @@ input[type="password"]:invalid {
     color: white;
     font-weight: bold;
     font-size: 1em;
+    background-color: #327284;
+    cursor: pointer;
+}
+
+a {
+    color: #327284;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .login-p {

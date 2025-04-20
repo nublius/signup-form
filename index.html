@@ -11,6 +11,10 @@
         <div class="img-container">
             <img src="images/church.jpg">
         </div>
+        <div class="transparent flex">
+            <img class="odin-logo" src="images/odin-lined.png">
+        </div>
+        <p class="credit">Photo by Ivo Sousa Martins</p>
         <div class="block-container flex">
             <div class="header-block flex">
                 <p class="para first">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
@@ -22,11 +26,11 @@
                 <div class="signup-container">
                     <h1>Let's do this!</h1>
                     <div class="form-container">
-                        <form>
+                        <form id="register">
                             <fieldset>
                                 <div class="pair">
                                     <label for="first-name">FIRST NAME</label>
-                                    <input type="text" id="first-name" name="first-name">
+                                    <input type="text" id="first-name" name="first-name" required>
                                 </div>
 
                                 <div class="pair">
@@ -48,12 +52,12 @@
                             <fieldset>
                                 <div class="pair">
                                     <label for="pword">PASSWORD</label>
-                                    <input type="password" id="pword" name="pword">
+                                    <input type="password" id="pword" name="pword" minlength="4" required>
                                 </div>
                                 
                                 <div class="pair">
                                     <label for="confirm">CONFIRM PASSWORD</label>
-                                    <input type="password" id="confirm" name="confirm">
+                                    <input type="password" id="confirm" name="confirm" minlength="4" required>
                                 </div>
                             </fieldset>
                         </form>
@@ -61,8 +65,8 @@
                 </div>
             </div>
             <div class="login-block flex">
-                <button class="create-acc">Create Account</button>
-                <p class="login-p">Already have an account? Log in</p>
+                <button type="submit" form="register" class="create-acc">Create Account</button>
+                <p class="login-p">Already have an account? <a href="log-in.html">Log in</a></p>
             </div>
         </div>
     </div>

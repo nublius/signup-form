@@ -100,3 +100,15 @@ input {
 .create-acc {
     background-color: #327284;
 }
+
+.create-acc {
+    height: 50px;
+    width: 15vw;
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}

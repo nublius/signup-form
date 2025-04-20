@@ -57,6 +57,8 @@ p.second {
 
 h1 {
     font-size: 1.7em;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 label {
@@ -75,6 +77,12 @@ fieldset {
     display: flex;
     flex-direction: column;
     margin-right: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .login-block {

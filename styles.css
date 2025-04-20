@@ -77,12 +77,20 @@ fieldset {
     display: flex;
     flex-direction: column;
     margin-right: 60px;
+    min-width: 60%;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
+}
+
+input {
+    width: 100%;
+    border-radius: 2px;
+    padding: 5px 0px;
+    border: 2px solid #ececec;
 }
 
 .login-block {

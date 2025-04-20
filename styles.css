@@ -95,7 +95,7 @@ input {
 
 input:focus {
     border: 1px solid lightskyblue;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 0px 2px 7px black;
 }
 
 .login-block {
@@ -106,6 +106,10 @@ input:focus {
 
 .create-acc {
     background-color: #327284;
+}
+
+input[type="password"]:invalid {
+    border: 2px solid red;
 }
 
 .create-acc {

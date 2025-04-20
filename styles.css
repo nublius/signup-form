@@ -93,6 +93,11 @@ input {
     border: 2px solid #ececec;
 }
 
+input:focus {
+    border: 1px solid lightskyblue;
+    box-shadow: 2px 2px 3px black;
+}
+
 .login-block {
     height: 33%;
     flex-direction: column;

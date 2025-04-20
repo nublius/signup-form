@@ -95,6 +95,8 @@ input {
 
 .login-block {
     height: 33%;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .create-acc {
@@ -111,4 +113,8 @@ input {
     color: white;
     font-weight: bold;
     font-size: 1em;
+}
+
+.login-p {
+    margin-left: 50px;
 }
